@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Aboreto, Monoton, Ruda } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// Rename the variable to reflect the correct font name
+const aboreto = Ruda({
+  weight: "400", // Optional: Specify the font weight
+  subsets: ["latin"], // Optional: Specify the subset
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="dark">
+      {/* Apply the font to the body */}
+      <body className={aboreto.className}>{children}</body>
     </html>
   );
 }
