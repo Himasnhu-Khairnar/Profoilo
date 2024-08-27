@@ -18,7 +18,7 @@ const Herosection = () => {
             Hey! I am a computer science student in my 3rd year of diploma. I have
             a strong passion for web development and enjoy creating responsive,
             user-friendly websites. My experience includes working with HTML, CSS,
-            JavaScript, and popular frameworks like React and Next.js. I'm
+            JavaScript, and popular frameworks like React and Next.js. I&apos;m
             constantly learning and experimenting with new tools and techniques to
             build modern, scalable web applications that provide a seamless user
             experience.
